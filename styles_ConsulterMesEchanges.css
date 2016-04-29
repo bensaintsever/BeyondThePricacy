@@ -1,0 +1,100 @@
+<style>
+	body
+	{
+		font-family: 'Open Sans', sans-serif;
+		background-color:white;
+		width: 320px;
+	}
+
+	h1
+	{
+		text-align: left;
+
+	}
+
+    #titre1{
+        text-align: center;
+            font-size: 300%;
+    }
+
+#nom_profil{
+    font-size: 28px;
+}
+
+.tableau_historique_echange{
+    width: 100%;
+}
+
+.tableau_principal_echange{
+    margin-top: 140px;
+    margin-right: 10px;
+}
+
+	a{
+		color: black;
+		text-decoration: none;
+	}
+
+
+
+    .tableau_historique_echange{
+        display: flex;
+    }
+
+    table{
+        margin-top: 80px;
+        border-collapse:collapse;
+
+        max-width:700px;
+        min-width:200px;
+        text-align:center;
+
+        display: flex;
+
+    }
+
+tr:hover {background-color: #f5f5f5}
+th {
+    background-color: #FFB478;
+    color: black;
+}
+    th, td{
+        border-bottom:1px solid #ddd;
+
+        width:50%;
+
+        text-align: left;
+        margin: auto;
+        padding: 15px;
+
+    }
+    .NoBorder{
+        border:0px;
+    }
+
+
+    #sousTableau_ParametresAccess{
+        margin-top: 0;
+        border:0px;
+
+
+    }
+
+#test{
+    flex: auto;
+
+}
+    #sousTableauID{
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+
+    }
+.padding_compensation{
+    padding-top: 33px;
+}
+
+</style>
+
+
