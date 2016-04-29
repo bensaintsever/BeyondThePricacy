@@ -17,7 +17,9 @@
 		font-size: 300%;
 }
 
-
+#titre_liste{
+    font-size: 28px;
+}
     .w3-btn{
          background-color: #4CAF50; /* Green */
             border: none;
@@ -40,22 +42,13 @@
 
 	}
 
-    .titreProfilExistant{
-
-
-        background-color: bisque;
-    }
-
 	a{
 		color: black;
 		text-decoration: none;
 	}
 
     .tableau{
-        background-color: aqua;
         display: flex;
-
-
     }
     table{
         margin-top: 100px;
@@ -84,6 +77,5 @@ th, td{
     .tableau_button{
         margin-top: 50px;
         display: flex;
-        background-color: red;
     }
 </style>
