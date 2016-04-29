@@ -1,0 +1,89 @@
+<style>
+	body
+	{
+		font-family: 'Open Sans', sans-serif;
+		background-color:white;
+		width: 320px;
+	}
+
+	h1
+	{
+		text-align: left;
+
+	}
+
+#titre1{
+    text-align: center;
+		font-size: 300%;
+}
+
+
+    .w3-btn{
+         background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 50%;
+    }
+	.container{
+		margin-top: 100px;
+        margin-left: 5%;
+
+	}
+
+    .titreProfilExistant{
+
+
+        background-color: bisque;
+    }
+
+	a{
+		color: black;
+		text-decoration: none;
+	}
+
+    .tableau{
+        background-color: aqua;
+        display: flex;
+
+
+    }
+    table{
+        margin-top: 100px;
+        border-collapse:separate
+
+        max-width:700px;
+        min-width:200px;
+        text-align:center;
+        border:1px solid black;
+        border-radius: 5px;
+
+    }
+th, td{
+    border:1px solid black;
+    border-radius: 5px;
+    width:50%;
+
+    text-align: left;
+
+    margin: auto;
+
+
+
+}
+
+    .tableau_button{
+        margin-top: 50px;
+        display: flex;
+        background-color: red;
+    }
+</style>
